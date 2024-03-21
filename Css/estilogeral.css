@@ -1,0 +1,96 @@
+﻿/*Parte sem tabelas*/
+body {
+    margin: 0px;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    box-shadow: 1px 1px 5px 0px grey;
+    margin-bottom: 20px;
+}
+
+.juntos {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+#tblAluno {
+    width: 80vw;
+}
+
+#btnBuscar {
+    height: 41px;
+    width: 150px;
+    background-color: #2d4891;
+    color: white;
+}
+
+#txtFiltro {
+    width: 700px;
+    height: 35px;
+    margin: 0 7px 12px 0;
+    outline: none;
+}
+
+.titulo {
+    margin-bottom: -1px;
+}
+
+.ala {
+    margin-top: 1px;
+    border-bottom: 1px #dbdbdb solid;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+/*Parte de modificação das tabelas*/
+
+table tr td {
+    padding: 5px;
+    border-color: #dbdbdb;
+}
+
+table tr th {
+    background-color: #2d4891;
+    border-color: #dbdbdb;
+    padding: 5px;
+}
+
+table tbody tr:hover {
+    background-color: #babaca;
+    cursor: pointer;
+}
+
+/*pagina de erro*/
+
+.imgErro {
+    height: 250px;
+    float: right;
+}
+
+.errinho {
+    font-size: 30px;
+    text-align: center;
+    width: 25vw;
+    margin-left: 5vw;
+}
